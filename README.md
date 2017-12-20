@@ -13,11 +13,12 @@ Server usage:<br />
  otp_dec_d <listening_port> [&]<br />
 
 Client usage:<br />
- otp_enc <plaintext> <key> <port><br />
+ otp_enc <plaintext> <key> <port>  <br />
  - plaintext is the name of a file in the current directory that contains the plaintext you wish to encrypt.<br />
  - key contains the encryption key you wish to use to encrypt the text.<br />
  - port is the port that otp_enc should attempt to connect to otp_enc_d on<br />
- otp_dec <ciphertext> <key> <port><br />
+ 
+ otp_dec <ciphertext> <key> <port>  <br />
  - ciphertext is the name of a file in the current directory that contains the ciphertext you wish to decrypt.<br />
  - key contains the encryption key you wish to use to decrypt the text.<br />
  - port is the port that otp_dec should attempt to connect to otp_dec_d on<br />
